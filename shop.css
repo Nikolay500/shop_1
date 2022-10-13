@@ -1,0 +1,175 @@
+body {
+    background-color: rgb(186, 186, 186);
+    overflow-x: hidden;
+}
+
+.wrapper-goods {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    width: 80%;
+    margin: 20px auto;
+    
+}
+
+.card-title {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.card-image {
+    width: 100%;
+    display: inline-block;
+    
+}
+
+.card-description {
+    text-align: center;
+    font-weight: 500;
+}
+
+.card-rate {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    border-radius: 50%;
+    padding: 15px 16px;
+    width: 65px;
+    height: 65px;
+    font-weight: bolder;
+}
+
+.btn-danger {
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.lightzoom {
+    width: 20%;
+    margin: 20px auto;
+}
+
+.popup{
+    transition: 1s;
+    position: fixed;
+    right: -500px;
+    top: 0px;
+    opacity: 0;
+    width: 35%;
+    height: 100vh;
+    z-index: 1;
+    background-color: white;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: 1.5px solid grey;
+    overflow-y: scroll;
+}
+
+.btn-popup{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.info{
+    width: 75%;
+}
+
+.cart-card{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px black;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.cart-image{
+    height: 100%;
+}
+
+.cart-title{
+    font-size: 10px;
+}
+
+.cart-desc{
+    font-size: 8px;
+}
+
+.cart-card-btn{
+    width: 14px;
+    height: 14px;
+}
+
+.cart-price{
+    font-size: 15px;
+}
+
+.counter-div{
+    display: flex;
+    height: 20px;
+}
+
+.minus{
+    border-radius: 10px;
+    width: 22px;
+    height: 22px;
+    margin-right: 3px;
+    padding: 3px;
+    position: relative;
+}
+
+.minus p{
+    position: absolute;
+    left: 6px;
+    top: -5px;
+}
+
+.plus{
+    border-radius: 10px;
+    width: 22px;
+    height: 22px;
+    margin-left: 3px;
+    padding: 3px;
+    position: relative;
+}
+
+.plus p{
+    position: absolute;
+    left: 4px;
+    top: -5px;
+}
+
+.fa-xmark{
+    border: none;
+    position: absolute;
+    top: 3px;
+    right: 5px;
+
+}
+
+.empty-cart-div{
+    text-align: center;
+    margin: 200px 0px;
+}
+
+.empty-cart-div p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.fa-cart-shopping{
+    margin-top: 10px;
+    font-size: 50px;
+}
